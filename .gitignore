@@ -1,0 +1,34 @@
+# Arduino IDE
+build/
+*.elf
+*.hex
+*.bin
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.env.local
+config_local.h
+
+# Build artifacts
+dist/
+*.o
+*.a
+*.so

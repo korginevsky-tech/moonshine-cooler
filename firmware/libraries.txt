@@ -1,0 +1,23 @@
+# Требуемые библиотеки для Arduino IDE / PlatformIO
+
+# Работа с датчиками температуры DS18B20
+DallasTemperature
+OneWire
+
+# Веб-сервер и сеть
+ESP8266WiFi
+ESP8266WebServer
+
+# Дисплей (выберите нужный вам)
+# Для LCD через I2C:
+LiquidCrystal_I2C
+
+# Для OLED дисплея (опционально):
+# Adafruit_SSD1306
+# Adafruit_GFX
+
+# JSON обработка
+ArduinoJson
+
+# Хранение параметров
+EEPROM (встроена в ESP8266)
